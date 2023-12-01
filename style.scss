@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    margin:20px;
+    height: 100vh;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(75, 75, 75);
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+}
+
+.supervisor{
+    width:33%;
+    box-shadow: 1px 2px 15px rgb(172, 168, 168);
+    border-top: 3px solid aquamarine;
+    margin: 15px;
+    height: 120%;
+    margin-top: 12%;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.teamkarma{
+    width:33%;
+}
+
+.Calculator{
+    width: 33%;
+    box-shadow: 1px 2px 15px rgb(172, 168, 168);
+    border-top: 3px solid rgb(0, 110, 255);
+    margin: 15px;
+    height: 120%;
+    margin-top: 12%;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.karma{
+    box-shadow: 1px 2px 15px rgb(172, 168, 168);
+    border-top: 3px solid rgb(200, 166, 29);
+    margin: 15px;
+    height:50%;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.team{
+    box-shadow: 1px 2px 15px rgb(172, 168, 168);
+    border-top: 3px solid rgb(163, 14, 14);
+    margin: 15px;
+    height:50%;;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+img{
+    height:auto;
+    max-width: 15%;
+    float: right;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    overflow: hidden;
+}
+
+p{
+    text-align: left;
+    margin: 15px;
+    font-size: 12px;
+}
+
+.title{
+    text-align: left;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.title2{
+    font-weight: 200;
+    font-size:30px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.title1{
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.p1{
+    text-align: center;
+    margin: 0 20% 0 20%;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .container{
+        flex-direction: column;
+        height: 10%;
+    }
+    .container1 {
+        flex-direction: column; 
+    }
+
+    .supervisor,
+    .teamkarma,
+    .Calculator,
+    .karma,
+    .team {
+        width: 100%; 
+        margin: 2px; 
+
+    }
+
+    img {
+        max-width: 100%;
+        margin: 1vh; 
+    }
+}
+
